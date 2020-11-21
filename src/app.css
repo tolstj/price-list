@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    margin-top: 2%;
+}
+
+td {
+    /*border: 1px solid #51b12d;*/
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+.buttons {
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+}
+
+button {
+    width: 10vw;
+    height: 10vw;
+    border: none;
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
